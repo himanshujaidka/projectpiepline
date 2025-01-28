@@ -45,4 +45,4 @@ stages:
   jobs:
   - job: ProdDeployJob
     steps:
-    - bash: echo $(Prod) job
+    - bash: echo $(environment) job
